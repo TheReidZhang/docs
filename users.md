@@ -7,8 +7,6 @@
 - [Read and return a user](#read) `POST /api/users/read`
 - [Query and return users](#query) `POST /api/users/query`
 
----
-
 <h2 id="login"> Login </h2>
 
 **Login a user**
@@ -30,11 +28,14 @@
 ```
 
 **Response Code**
-`200: OK`
-`400: Argument Validation Errors`
-`400: User not found`
-`401: Unauthorized`
-`500: Database Error`
+
+```
+200: OK
+400: Argument Validation Errors
+400: User not found
+401: Unauthorized
+500: Database Error
+```
 
 **Success Response**
 
@@ -80,8 +81,6 @@
 }
 ```
 
----
-
 <h2 id="register"> Register </h2>
 
 **Register a user**
@@ -105,11 +104,14 @@
 ```
 
 **Response Code**
-`200: OK`
-`400: Argument Validation Errors`
-`400: User already exists`
-`401: Unauthorized`
-`500: Database Error`
+
+```
+200: OK
+400: Argument Validation Errors
+400: User already exists
+401: Unauthorized
+500: Database Error
+```
 
 **Success Response**
 
@@ -154,5 +156,3 @@
   }
 }
 ```
-
----
